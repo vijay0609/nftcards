@@ -1,0 +1,105 @@
+.attribution { font-size: 11px; text-align: center;color: hsl(0, 0%, 100%); }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main{
+    background-color: hsl(216, 50%, 16%);
+    padding: 25px;
+    border-radius: 15px;
+    transform: scale(0.725);
+    transition: 0.5s;
+    box-shadow: 0px 30px 0 20px hsl(214, 58%, 10%);
+    
+}
+.main img{
+    max-width: 350px;
+    min-width:150px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.main h2{
+    font-family: outfit;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.main h2:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.main p{
+    color: hsl(215, 51%, 70%);
+    max-width: 350px;
+    font-family: outfit;
+    font-size: 18px;
+}
+
+.sp
+{
+    display: flex;
+    justify-content: space-between;
+}
+.sp :nth-child(1){
+    color: hsl(178, 100%, 50%);
+    font-family: outfit;
+    font-weight: 700;
+}
+.sp :nth-child(2){
+    color: hsl(215, 51%, 70%);
+    font-family: outfit;
+    
+}
+
+.main hr{
+    background: hsl(215, 51%, 70%);
+    border:none;
+    margin: 20px 0;
+    height: 0.1px;
+}
+
+.av{
+    display: flex;
+    
+}
+
+.av img
+{
+    max-width: 50px;
+    min-width: 50px;
+    border-radius: 50%;
+    border: hsl(0, 0%, 100%) 1px solid;
+}
+
+.av :nth-child(2){
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    margin: 10px;
+}
+
+.av p span{
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.av p span:hover{
+    color: hsl(178, 100%, 50%);
+}
+@media (width<375px) {
+    .main{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%) scale(1);
+        
+    }
+}
+
+
+
